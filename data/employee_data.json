@@ -1,0 +1,23 @@
+[
+    {
+        "employee_id":101,
+        "name":"John Smit",
+        "department":"IT",
+        "salary":75000,
+        "location":"Toronto"
+    },
+    {
+        "employee_id":102,
+        "name":"Mary Jhonson",
+        "department":"Finance",
+        "salary":68000,
+        "location":"Brampton"       
+    },
+    {
+        "employee_id":103,
+        "name":"David Lee",
+        "department":"HR",
+        "salary":null,
+        "location":"Mississauga"       
+    }
+]
