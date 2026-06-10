@@ -18,6 +18,6 @@ def transform_data(data):
 
     df["name"] = df["name"].str.title()
 
-    logger.info("Transformation completed")
+    logger.info("Transformation completed.")
 
     return df
