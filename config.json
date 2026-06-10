@@ -2,6 +2,7 @@
     "input_file": "data/employee_data.json",
 
     "db_host": "localhost",
+    "db_password":"postgres",
     "db_name": "employee_db",
     "db_user": "postgres",
     "db_port": "5432"

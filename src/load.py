@@ -18,7 +18,7 @@ def load_data(df, config):
 
     engine = create_engine(connection_string)
 
-    df.to_sql("employees", con=engine, if_exits="replace", index=False)
+    df.to_sql("employees", con=engine, if_exists="replace", index=False)
 
     logger.info("data loaded successfully")
 
