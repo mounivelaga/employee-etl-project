@@ -7,7 +7,7 @@ def transform_data(data):
 
     df = pd.json_normalize(data)
 
-    required_columns = ["employee_id", "name", "department", "salary", "location"]
+    required_columns = ["employee_id", "name", "department", "salary", "location.city"]
     print("Columns in DataFrame:", df.columns.tolist())
 
     for col in required_columns:

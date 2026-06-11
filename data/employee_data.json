@@ -4,7 +4,9 @@
         "name":"John Smit",
         "department":"IT",
         "salary":75000,
-        "location":"Toronto"
+        "location":{
+            "city":"Toronto"
+        }
     },
     {
         "employee_id":102,
